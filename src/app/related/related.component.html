@@ -1,3 +1,13 @@
-<div id="related" class="row bg-warning">
+<div class="related col-xs-12 bg-warning">
       <h3>Related comp</h3>
+      <div class="related__items">
+            <ul class="list-group">
+                  <li 
+                        class="list-group-item list-group-item-success"
+                        *ngFor="let a of [1,2,3]"
+                  >
+                        <app-related-item></app-related-item>
+                  </li>
+            </ul>
+      </div>
 </div>
